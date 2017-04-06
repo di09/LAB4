@@ -1,0 +1,500 @@
+    6  make restore 
+    7  ./restore Backup
+    8  make
+    9  make
+   10  ./restore Backup 
+   11  ./restore Backup 
+   12  ./restore Backup 
+   13  export BACKUPTARGET=newBackup
+   14  ./bkup /root/Desktop/test/
+   15  ./restore newBackup 
+   16  ./restore newBackup 
+   17  ./restore newBackup /home/divic/Desktop/
+   18  ./restore newBackup 
+   19  clean
+   20  make clean
+   21  make
+   22  export BACKUPTARGET=myNewBackup
+   23  ./bkup testBackupDir/
+   24  ./restore myNewBackup 
+   25  make clean
+   26  make
+   27  ./bkup testBackup/
+   28  ./restore myNewBackup 
+   29  ./bkup test/
+   30  ./restore myNewBackup 
+   31  make clean
+   32  make
+   33  make clean
+   34  make
+   35  ./bkup test/
+   36  ./restore test/
+   37  make clean
+   38  make
+   39  ./bkup test/
+   40  ./restore test/
+   41  ./restore test/
+   42  make
+   43  make clean
+   44  make
+   45  ./bkup test/
+   46  ./restore test/
+   47  make clean
+   48  make
+   49  export BACKUPTARGET=backup
+   50  ./bkup test
+   51  ./restore test
+   52  make clean
+   53  make
+   54  ./bkup test
+   55  ./restore test
+   56  make clean
+   57  make
+   58  ./bkup test/
+   59  ./restore backup 
+   60  make clean
+   61  make
+   62  man 2 stat
+   63  man mkfifo
+   64  man 2 mkfifo
+   65  man 1 mkfifo
+   66  man 3 mkfifo
+   67  man 3 mkdir
+   68  man 2 mkdir
+   69  man 3 mkfifo
+   70  man 2 mkdir
+   71  man 3 mkfifo
+   72  man mkfifo
+   73  mkfifo pipegfcgd
+   74  ls
+   75  rm -rf pipegfcgd 
+   76  cd Desktop/
+   77  ls
+   78  cd ue1_ue2_ivic_is151013/
+   79  mkdir testbackup
+   80  cd testbackup/
+   81  vim test
+   82  cd ..
+   83  mkfifo pipe
+   84  make
+   85  man 2 stat
+   86  make
+   87  make
+   88  make
+   89  make
+   90  ls -lah
+   91  export BACKUPTARGET=mybackup
+   92  ./bkup testbackup/
+   93  cd testbackup/
+   94  mkfifo pipe1
+   95  ./bkup testbackup/
+   96  cd ..
+   97  ./bkup testbackup/
+   98  ./restore mybackup 
+   99  make
+  100  ./restore mybackup 
+  101  make
+  102  make
+  103  ./restore mybackup 
+  104  man 2 stat
+  105  make
+  106  make
+  107  man getenv
+  108  make
+  109  make
+  110  make
+  111  clear
+  112  make
+  113  man 2 stat
+  114  man atol
+  115  man atoi
+  116  man 2 stat
+  117  clear
+  118  make
+  119  export MAXBKFILESIZE 4
+  120  export MAXBKFILESIZE=4
+  121  ./bkup testbackup/
+  122  make
+  123  ./bkup testbackup/
+  124  man umask
+  125  man 2 stat
+  126  man mkown
+  127  man 2 chown
+  128  man 2 stat
+  129  make
+  130  make
+  131  su divic
+  132  ./bkup /home/divic/Documents/testUserI 
+  133  ./restore mybackup 
+  134  ls -lah /home/divic/Documents/
+  135  ./restore mybackup 
+  136  ls -lah /home/divic/Documents/
+  137  ./sockcli
+  138  ./sockcli localhost
+  139  ./sockcli localhost
+  140  ./socketsrv localhost
+  141  ./sockcli localhost
+  142  ./sockcli localhost
+  143  ./sockcli localhost
+  144  htop
+  145  ./sockcli localhost
+  146  telnet localhost 6013
+  147  make
+  148  export BACKUPTARGET=mynewBackup
+  149  export MAXBKFILESIZE=5
+  150  mkfifo pipe3
+  151  ./bkup testbackup/
+  152  ./restore mynewBackup 
+  153  ls
+  154  ./bkup testbackup/
+  155  ./bkup testbackup/
+  156  man getchar
+  157  make
+  158  ./bkup testbackup/
+  159  make
+  160  ./bkup testbackup/
+  161  make
+  162  ./bkup testbackup/
+  163  make
+  164  ./bkup testbackup/
+  165  make
+  166  ./bkup testbackup/
+  167  ./restore mynewBackup 
+  168  man 2 stat
+  169  make
+  170  ./bkup testbackup/
+  171  make
+  172  ./bkup testbackup/
+  173  export MAXBKFILESIZE=5000
+  174  ./bkup testbackup/
+  175  make
+  176  ./bkup testbackup/
+  177  make
+  178  ./bkup testbackup/
+  179  ./restore mynewBackup 
+  180  cd testbackup/
+  181  ls -lah
+  182  man 2 stat
+  183  su divic
+  184  cd ..
+  185  ./bkup /home/divic/Documents/
+  186  ls -lah
+  187  ./restore mynewBackup 
+  188  cd testbackup/
+  189  ls
+  190  cd ../../ue3_ivic_is151013
+  191  make
+  192  ./socketsrv
+  193  make
+  194  ./socketsrv
+  195  make
+  196  ./socketsrv
+  197  ./socketsrv
+  198  clear
+  199  make
+  200  make
+  201  clear
+  202  make
+  203  clear
+  204  make
+  205  clear
+  206  make
+  207  man sprintf
+  208  clear
+  209  make
+  210  make
+  211  make
+  212  clear
+  213  make
+  214  clear
+  215  make
+  216  ./socketsrv
+  217  make
+  218  ./socketsrv
+  219  make
+  220  ./socketsrv
+  221  make
+  222  ./socketsrv
+  223  ./socketsrv
+  224  make
+  225  ./socketsrv
+  226  make
+  227  make
+  228  clear
+  229  make
+  230  make
+  231  make
+  232  ./socketsrv
+  233  ./socketsrv
+  234  make
+  235  ./socketsrv
+  236  ./socketsrv
+  237  ./socketsrv
+  238  ./socketsrv
+  239  make clean
+  240  make
+  241  ./socketsrv
+  242  make
+  243  ./socketsrv
+  244  ./socketsrv
+  245  make
+  246  ./socketsrv
+  247  man 2 stat
+  248  ./socketsrv localhost
+  249  ./sockcli localhost
+  250  ./sockcli localhost
+  251  ./sockcli localhost
+  252  ./sockcli localhost
+  253  ./sockcli localhost
+  254  ./sockcli localhost
+  255  telnet localhost 6013
+  256  telnet localhost 6013
+  257  man putchar
+  258  man putchar
+  259  ./sockcli localhost
+  260  ./sockcli localhost
+  261  ./sockcli localhost
+  262  ./sockcli localhost
+  263  ./sockcli localhost
+  264  ./sockcli localhost
+  265  ./sockcli localhost
+  266  ./sockcli localhost
+  267  ./sockcli localhost
+  268  ./sockcli localhost
+  269  ./sockcli localhost
+  270  ./sockcli localhost
+  271  ./sockcli localhost
+  272  ./sockcli localhost
+  273  cd ../bssp_ue4_ivic_is151013
+  274  ls
+  275  telnet localhost 6013
+  276  telnet localhost 6014
+  277  telnet localhost 6014
+  278  telnet localhost 6015
+  279  telnet localhost 6017
+  280  telnet localhost 6020
+  281  telnet localhost 6021
+  282  telnet localhost 6022
+  283  telnet localhost 6023
+  284  telnet localhost 6024
+  285  telnet localhost 6025
+  286  make
+  287  make
+  288  make
+  289  make
+  290  ./shellserver_thread 
+  291  info
+  292  make
+  293  ./shellserver_thread 
+  294  make
+  295  make
+  296  ./shellserver_thread 
+  297  make
+  298  ./shellserver_thread 
+  299  make
+  300  ./shellserver_thread 
+  301  make
+  302  ./shellserver_thread 
+  303  make
+  304  ./shellserver_thread 
+  305  make
+  306  ./shellserver_thread 
+  307  make
+  308  ./shellserver_thread 
+  309  make
+  310  make
+  311  ./shellserver_thread 
+  312  make
+  313  ./shellserver_thread 
+  314  man snprintf
+  315  man snprintf
+  316  make clean
+  317  make clean
+  318  make clean
+  319  apt-get update
+  320  apt-get upgrade
+  321  apt-get update
+  322  reboot
+  323  ping orf.at
+  324  apt-get udate
+  325  apt-get update
+  326  apt-get upgrade
+  327  apt-get upgrade
+  328  apt-get --fix-missing
+  329  apt-get update --fix-missing
+  330  apt-get upgrade
+  331  openproject configure
+  332  apt-get update
+  333  apt-get autoremove
+  334  apt-get upgrade
+  335  apt-get dist-upgrade
+  336  cd ~/Downloads/
+  337  ls
+  338  dpkg -i atom-amd64.deb 
+  339  dpkg --install atom-amd64.deb 
+  340  apt-get update
+  341  apt-get upgrade
+  342  apt-get -f install
+  343  apt-get install git
+  344  dpkg --install atom-amd64.deb 
+  345  atom 
+  346  apt-get install terminator
+  347  terminator
+  348  ./sockcli localhost
+  349  ./sockcli localhost
+  350  ./sockcli localhost
+  351  ./sockcli localhost
+  352  cd /root/Desktop/ue2
+  353  ./sockcli localhost
+  354  ./sockcli localhost
+  355  ./sockcli localhost
+  356  ./sockcli localhost
+  357  ./sockcli localhost
+  358  ./sockcli localhost
+  359  ./sockcli localhost
+  360  ./sockcli localhost
+  361  ./sockcli localhost
+  362  ./sockcli localhost
+  363  ./sockcli localhost
+  364  ./sockcli localhost
+  365  ./sockcli localhost
+  366  ./sockcli localhost
+  367  ./sockcli localhost
+  368  ./sockcli localhost
+  369  man strcmp
+  370  cd /root/Desktop/ue2
+  371  ./sockcli
+  372  ./sockcli localhost
+  373  ./sockcli localhost
+  374  ./sockcli localhost
+  375  ./sockcli localhost
+  376  ./sockcli localhost
+  377  ./sockcli localhost
+  378  ./sockcli localhost
+  379  ./sockcli localhost
+  380  ./sockcli localhost
+  381  ./sockcli localhost
+  382  ./sockcli localhost
+  383  cat /var/log/chatlog013 
+  384  rm /var/log/chatlog013 
+  385  cat /var/log/chatlog013 
+  386  df -h
+  387  clear
+  388  cd /root/Desktop/ue2
+  389  ./sockcli
+  390  ./sockcli localhost 4022
+  391  ./sockcli localhost 4022
+  392  ./sockcli localhost
+  393  ./sockcli localhost
+  394  ./sockcli localhost
+  395  ./sockcli localhost
+  396  ./sockcli localhost
+  397  clear
+  398  ./sockcli localhost
+  399  ./sockcli localhost
+  400  ./sockcli localhost
+  401  ./sockcli localhost
+  402  clear
+  403  ./sockcli localhost
+  404  ./sockcli localhost
+  405  ./sockcli localhost
+  406  ./sockcli localhost
+  407  ./sockcli localhost
+  408  ./sockcli localhost
+  409  ./sockcli localhost
+  410  ./sockcli localhost
+  411  ./sockcli localhost
+  412  ./sockcli localhost
+  413  clear
+  414  ./sockcli localhost
+  415  ./sockcli localhost
+  416  make
+  417  ./sockcli localhost
+  418  ./sockcli localhost
+  419  ./sockcli localhost
+  420  pwd
+  421  cd /root/Desktop/ue2/
+  422  ls
+  423  make
+  424  ./socketsrv
+  425  make
+  426  clear
+  427  ./socketsrv
+  428  ./socketsrv
+  429  ./socketsrv
+  430  make
+  431  ./socketsrv
+  432  make
+  433  ./socketsrv
+  434  make
+  435  ./socketsrv
+  436  clear
+  437  make
+  438  make
+  439  make
+  440  ./socketsrv
+  441  make
+  442  ./socketsrv
+  443  make
+  444  clear
+  445  ./socketsrv
+  446  clear
+  447  make
+  448  ./socketsrv
+  449  make
+  450  clear
+  451  make
+  452  ./socketsrv
+  453  make
+  454  clear
+  455  make
+  456  ./socketsrv
+  457  make
+  458  ./socketsrv
+  459  make
+  460  ./socketsrv
+  461  clear
+  462  make
+  463  ./socketsrv
+  464  make
+  465  ./socketsrv
+  466  make
+  467  make
+  468  ./socketsrv
+  469  make
+  470  ./socketsrv
+  471  make
+  472  ./socketsrv
+  473  make
+  474  ./socketsrv
+  475  make
+  476  ./socketsrv
+  477  make
+  478  make
+  479  make
+  480  ./socketsrv 2
+  481  make
+  482  make
+  483  clea
+  484  clear
+  485  make
+  486  make
+  487  ./socketsrv 2
+  488  make
+  489  ./socketsrv 2
+  490  cd /root/Desktop/ue2
+  491  ./sockcli
+  492  ./sockcli localhost
+  493  cd /root/Desktop/ue2
+  494  ./sockcli localhost
+  495  cd /root/Desktop/ue2
+  496  make
+  497  ./socketsrv
+  498  apt-get install git
+  499  cd /root/Desktop/LAB4_GITHUB/
+  500  ssh-keygen -t rsa -b 4096 -C "dom.ivic@gmail.com"
+  501  ssh-keygen -t rsa -b 4096 -C "dom.ivic@gmail.com"
+  502  $history>mylog.log.
+  503  eval "$(ssh-agent -s)"
+  504  ssh-add ~/.ssh/id_rsa
+  505  history > mylog.log
